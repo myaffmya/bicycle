@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+ body {
+    margin: 0;
+ }
+ * {
+    font-family: Open Sans;
+ }
+.header-top {
+    background-image: url(img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+   
+
+    
+    
+}
+/*---------------------------------------------*/
+.header-top-nav {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav-btn {
+    display: block;
+    padding: 21px;
+    justify-content: center;
+    text-align: center;
+    
+ 
+}
+
+.header-nav-btn {
+   
+
+    top:15px;
+    text-decoration: none;
+    color: #FFF;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    letter-spacing: -0.08px;
+    opacity: 0.7;
+    padding: 0px 21px;
+    margin:  21px;
+    
+    
+}
+/*------------------------------------------------*/
+.intro-login{
+    display: grid;
+    grid-template-columns: 393px 327px;
+    justify-content: center;
+    padding: 322px 280px;
+    
+}
+.header-intro-text {
+    display: flex;
+
+    flex-direction: column;
+}
+.header-intro-text-title {
+    color: #FFF;
+ font-family: Open Sans;
+ font-size: 46px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 64px; /* 139.13% */
+ letter-spacing: -0.23px;
+ width: 393px;
+}
+.header-intro-text-desc {
+    color: #FFF;
+ font-family: Open Sans;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 32px; /* 160% */
+ letter-spacing: -0.1px;
+ opacity: 0.8;
+ width: 381px;
+ padding-top: 24px;
+ text-align: left;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    
+}
+.x {
+   cursor: pointer;
+   position: absolute;
+   top: 323px;
+   right: 40%;
+}
+.x:before, .x:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background: #FFF; 
+}
+.x:before {
+    transform: rotate(45deg);
+}
+.x:after {
+    transform: rotate(-45deg);
+}
+.form-p {
+    color: #FFF;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 17px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 28px; /* 164.706% */
+ letter-spacing: -0.085px;
+width: 327px;
+margin-bottom: 20px;
+}
+.form-name {
+    width: 327px;
+ height: 48px;
+ flex-shrink: 0;
+ fill: #FFF;
+ stroke-width: 1px;
+ stroke: #C9CCD4;
+
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #FFF;
+ margin-bottom: 20px;
+}
+.form-number {
+    width: 327px;
+    height: 48px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #C9CCD4;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #FFF;
+    margin-bottom: 20px;
+    
+}
+.form-btn {
+    width: 327px;
+ height: 51px;
+ flex-shrink: 0;
+ background-color: #F79E2D;
+ border-style: solid;
+ border-radius: 5px;
+ border-color: #F79E2D;
+}
+
+.facts-title {
+    color: #1F1F1F;
+
+ font-family: Open Sans;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 30px; /* 75% */
+ letter-spacing: -0.2px;
+ margin-top: 155px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+
+width: 482px;
+height: 30px;
+}
+.blocks {
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 263px 263px 263px 263px;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 131px;
+
+}
+h3 {
+    color: #F79E2D;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 38px; /* 135.714% */
+ letter-spacing: -1.273px;
+}
+p {
+    color: #000;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 22px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 34px; /* 154.545% */
+ letter-spacing: -0.5px;
+}
+.catalog {
+    background: #F5F7F9;
+}
+.catalog-title {
+ width: 671px;
+ height: 101px;
+ color: #1F1F1F;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 64px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 30px; /* 46.875% */
+ letter-spacing: -0.32px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 81px;
+}
+.cards {
+    display: grid;
+    grid-template-areas:"a . ." ". b ." ". . c" ;
+
+}
+.bg-video {
+    width: 100%;
+    height: 413px;
+    flex-shrink: 0;   
+    background: #F79E2D;
+}
+.title-video {
+    color: #FFF;
+ font-family: Open Sans;
+ font-size: 40px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 30px; /* 75% */
+ letter-spacing: -0.2px;
+ margin-left: auto;
+  margin-right: auto;
+}
